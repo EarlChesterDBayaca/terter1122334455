@@ -1,0 +1,74 @@
+/* Global styles */
+* {
+    margin: 0; /* Reset margin for all elements */
+    padding: 0; /* Reset padding for all elements */
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: #99780b;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Profile section */
+.profile {
+    width: 500px;
+    background: #c52c2c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px rgba(153, 112, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Profile image styling */
+.facebook-image {
+    width: 70%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #353210;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for profile image */
+.facebook-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Text content inside the profile */
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* New image outside the profile section */
+.outside-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #353210;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for outside image */
+.outside-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
